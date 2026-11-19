@@ -1,56 +1,68 @@
-# Student Performance and Study-Hours Dashboard
+Student Study-Hours and Performance Dashboard
 
-A menu-driven Python application for managing student assessment records and analysing study hours and scores.
+A beginner-friendly Python data analysis project that manages student records and studies the relationship between students' study hours and examination marks.
 
-## Features
-- Add, insert, delete, modify and display multiple student records
-- Input validation and duplicate-ID prevention
-- CSV and JSON persistence (`student_data.csv`, `student_data.json`)
-- Letter-grade calculation
-- NumPy descriptive statistics
-- Pandas course-wise summaries
-- Matplotlib scatter plot and score histogram
-- IQR and MAD score-outlier detection
-- Pearson correlation before and after IQR filtering
-- Synthetic 15-record demonstration dataset
+Features
 
-## Requirements
-- Python 3.9 or later
-- Packages listed in `requirements.txt`
+- CSV and JSON files containing simulated student records
+- "StudentRecord" class using object-oriented programming (OOP)
+- Input validation for student IDs, course names, study hours and assessment scores
+- Add, insert, delete, modify and display student records
+- NumPy statistics: total students, average score, median score, average study hours, standard deviation, highest score and lowest score
+- Pandas course-wise performance analysis
+- Matplotlib graphs: study-hours-versus-score scatter plot and score-distribution histogram
+- IQR and MAD methods for score-outlier detection
+- Correlation analysis before and after IQR outlier filtering
+- Menu-driven interface
+- Data saved in both CSV and JSON formats
+- Error handling for missing files, missing columns, invalid values and duplicate student IDs
 
-## Setup
-```bash
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
+Project structure
 
-python -m pip install -r requirements.txt
-```
+Student_Performance_and_Study_Hours_Dashboard/
+├── student_performance_dashboard.py   # complete menu-driven application
+├── requirements.txt                   # required Python libraries
+├── student_data.csv                   # sample synthetic student dataset
+├── student_data.json                  # same sample data in JSON format
+├── Student_Performance_and_Study_Hours_Dashboard_Report.pdf
+├── Student_Performance_and_Study_Hours_Dashboard_Report.docx
+├── SUBMISSION_CHECKLIST.md             # final submission checklist
+├── .gitignore
+└── README.md
 
-## Run
-```bash
-python student_performance_dashboard.py
-```
-Choose option `12` to create the demonstration dataset (only when the database is empty). Then use options 7–10 to view analyses and graphs.
+How to run (VS Code / Python)
 
-## Data files
-The application reads `student_data.csv` first. If that file does not exist, it tries `student_data.json`. Saving writes both formats. The generated dataset is synthetic and must not be represented as real student observations.
+1. Open the "Student_Performance_and_Study_Hours_Dashboard" folder in VS Code.
 
-## Repository contents
-- `student_performance_dashboard.py` — application source code
-- `requirements.txt` — Python dependencies
-- `Student_Performance_and_Study_Hours_Dashboard_Report.pdf` — project report
-- `Student_Performance_and_Study_Hours_Dashboard_Report.docx` — editable report
-- `student_data.csv`, `student_data.json` — sample synthetic data
-- `.gitignore` — excludes local environments and cache files
+2. Open a terminal in VS Code.
 
-## GitHub submission
-1. Create a **public** GitHub repository named `Student_Performance_and_Study_Hours_Dashboard`.
-2. Upload/push all files in this project folder.
-3. Confirm the repository is publicly accessible.
-4. Submit the repository URL in the class Google Sheet. As instructed, only one team member should submit the link for the group.
+3. (Recommended) Create and activate a virtual environment:
+   
+   python -m venv .venv
+   
+   Windows:
+   
+   .venv\Scripts\activate
+   
+   macOS/Linux:
+   
+   source .venv/bin/activate
 
-## Note
-The code corrects the stray trailing period after `main()` in the pasted source so the Python file runs. The report is based on the supplied revised report; verify all team details and run the test cases in your own environment before submission.
+4. Install the required libraries:
+   
+   python -m pip install -r requirements.txt
+
+5. Run the application:
+   
+   python student_performance_dashboard.py
+
+6. Choose an option from the menu. Choose option 12 to generate the sample dataset if the database is empty. Choose options 7–10 to view statistical analysis, course-wise analysis, graphs, and outlier/correlation analysis. Choose option 13 to save and exit.
+
+Data files
+
+The application loads "student_data.csv" when it exists. If the CSV file is not present, it attempts to load "student_data.json". Saving data writes both formats. The included sample records are synthetic demonstration data, not real student observations.
+
+Note
+
+Correlation describes an association between study hours and assessment scores. It does not prove that studying for more hours directly causes higher marks. The sample dataset is simulated and should not be treated as evidence about real students.
+
