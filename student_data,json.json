@@ -1,0 +1,92 @@
+[
+    {
+        "Student_ID": 101,
+        "Course": "ECE",
+        "Study_Hours": 5,
+        "Score": 85
+    },
+    {
+        "Student_ID": 102,
+        "Course": "ECE",
+        "Study_Hours": 7,
+        "Score": 92
+    },
+    {
+        "Student_ID": 103,
+        "Course": "CSE",
+        "Study_Hours": 3,
+        "Score": 65
+    },
+    {
+        "Student_ID": 104,
+        "Course": "CSE",
+        "Study_Hours": 6,
+        "Score": 80
+    },
+    {
+        "Student_ID": 105,
+        "Course": "EEE",
+        "Study_Hours": 4,
+        "Score": 70
+    },
+    {
+        "Student_ID": 106,
+        "Course": "EEE",
+        "Study_Hours": 8,
+        "Score": 95
+    },
+    {
+        "Student_ID": 107,
+        "Course": "ECE",
+        "Study_Hours": 2,
+        "Score": 55
+    },
+    {
+        "Student_ID": 108,
+        "Course": "CSE",
+        "Study_Hours": 5,
+        "Score": 75
+    },
+    {
+        "Student_ID": 109,
+        "Course": "EEE",
+        "Study_Hours": 6,
+        "Score": 82
+    },
+    {
+        "Student_ID": 110,
+        "Course": "ECE",
+        "Study_Hours": 10,
+        "Score": 100
+    },
+    {
+        "Student_ID": 111,
+        "Course": "CSE",
+        "Study_Hours": 1,
+        "Score": 40
+    },
+    {
+        "Student_ID": 112,
+        "Course": "EEE",
+        "Study_Hours": 3,
+        "Score": 60
+    },
+    {
+        "Student_ID": 113,
+        "Course": "ECE",
+        "Study_Hours": 4,
+        "Score": 78
+    },
+    {
+        "Student_ID": 114,
+        "Course": "CSE",
+        "Study_Hours": 8,
+        "Score": 90
+    },
+    {
+        "Student_ID": 115,
+        "Course": "EEE",
+        "Study_Hours": 12,
+        "Score": 45
+    }
+]
